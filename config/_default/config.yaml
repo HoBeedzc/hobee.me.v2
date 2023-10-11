@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: LZQ Homepage # Website name
-baseurl: 'https://lzq.netlify.app/' # Website URL
-copyright: '© 2021 Zequn Liu (Hobee). All rights reserved.' # Footer text, e.g. '© {year} Me'
+title: Zequn Liu's Homepage # Website name
+baseurl: "https://hobee-me-v2.netlify.app/" # Website URL
+copyright: "© 2021 - 2023 Zequn Liu (Hobee). All rights reserved." # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -22,8 +22,10 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -37,10 +39,10 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  event: "/talk/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  publication_types: "/publication-type/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
