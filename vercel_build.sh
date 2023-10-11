@@ -8,8 +8,7 @@ yum install go
 git clone https://github.com/gohugoio/hugo.git hugo-source
 cd hugo-source
 git checkout release-0.119.0
-git branch
-exit
+
 go build
 
 cd ..
