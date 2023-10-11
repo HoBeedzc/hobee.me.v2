@@ -70,3 +70,11 @@ related:
       weight: 70
 security:
   _merge: deep
+
+
+outputFormats:
+  WebAppManifest:
+    mediaType: "application/json"
+    baseName: "manifest"
+    isPlainText: true
+    notAlternative: true

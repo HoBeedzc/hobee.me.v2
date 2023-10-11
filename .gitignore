@@ -11,3 +11,4 @@ go.sum
 
 # Mac
 .DS_Store
+.vercel
