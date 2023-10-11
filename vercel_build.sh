@@ -10,6 +10,7 @@ cd hugo-source
 git checkout release-0.119.0
 
 go install --tags extended
+go build --tags extended
 
 cd ..
 ./hugo-source/hugo version
