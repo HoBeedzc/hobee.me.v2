@@ -9,7 +9,7 @@ git clone https://github.com/gohugoio/hugo.git hugo-source
 cd hugo-source
 git checkout release-0.119.0
 
-go build
+go install --tags extended
 
 cd ..
 ./hugo-source/hugo version
