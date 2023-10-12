@@ -34,6 +34,7 @@ Here are some of my friends 👬🏻
 * [Jim Zhang](https://jimzhang.me/)
 * [KK](https://wzk.plus/)
 * [Marvolo](http://marvolo.top/)
+* [Zhang Haoyuan](http://www.zhanghaoyuan.com/)
 
 >  tell me your personal website if you are a friend of me and you have one!
 
@@ -41,7 +42,7 @@ Here are some of my friends 👬🏻
 
 Here are some awesome projects I want to share with you 💻
 
-* xian chong [LittleNyima](https://littlenyima.github.io/)
+* Coming up
 
 
 

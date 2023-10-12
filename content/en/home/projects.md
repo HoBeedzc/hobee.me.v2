@@ -27,14 +27,17 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: Full Stack
+    tag: Full Stack, Frontend, Backend
+  - name: Frontend
+    tag: Frontend, JavaScript, TypeScript, React, Vue
+  - name: Backend
+    tag: Backend, Golang, Python, Java
   - name: Python
     tag: Python
   - name: Golang
     tag: Golang
-  - name: Java
-    tag: Java
-  - name: JavaScript
-    tag: JavaScript
+
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

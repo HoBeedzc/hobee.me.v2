@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Zequn Liu's Homepage # Website name
-baseurl: "https://hobee-me-v2.netlify.app/" # Website URL
+baseurl: "https://hobee.me/" # Website URL
 copyright: "© 2021 - 2023 Zequn Liu (Hobee). All rights reserved." # Footer text, e.g. '© {year} Me'
 
 ############################

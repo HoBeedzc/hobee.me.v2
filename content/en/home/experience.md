@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Working Experience
+title: Work or Intership Experience
 subtitle:
 
 # Date format for experience
